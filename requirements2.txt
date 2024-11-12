@@ -63,7 +63,6 @@ wurlitzer
 gmpy2
 cymem
 catalogue
-anaconda-navigator
 xlrd
 python-json-logger
 waitress
@@ -105,7 +104,6 @@ plac
 kiwisolver
 xlwt
 cvxopt
-clyent
 mpmath
 imagesize
 sniffio
@@ -147,7 +145,6 @@ future
 pyrsistent
 rope
 graphviz
-ruamel-yaml-conda
 docutils
 unicodecsv
 prometheus-client
@@ -197,13 +194,11 @@ ruamel.yaml.clib
 wcwidth
 pure-eval
 jupyterlab-pygments
-navigator-updater
 backcall
 ipython-genutils
 jupyter-highlight-selected-word
 htmlmin
 PyMF
-pathtools
 tangled-up-in-unicode
 pyodbc
 locket
@@ -243,8 +238,6 @@ openpyxl
 preshed
 requests
 h2o
-conda
-conda-build
 pytest-cov
 Babel
 Sphinx
@@ -282,10 +275,8 @@ pyOpenSSL
 torch
 pydantic
 sympy
-conda-package-handling
 pyerfa
 astropy
-anaconda-client
 astunparse
 scipy
 gensim
@@ -314,10 +305,8 @@ PyWavelets
 ImageHash
 html5lib
 numpydoc
-conda-repo-cli
 QtAwesome
 backports.tempfile
-conda-verify
 requests-futures
 numba
 scikit-learn
@@ -346,7 +335,6 @@ yellowbrick
 wordcloud
 sweetviz
 pytest-doctestplus
-anaconda-project
 deepctr
 imbalanced-learn
 jupyter-packaging
@@ -432,8 +420,6 @@ tffm2
 nmf
 suod
 light-famd
-conda-content-trust
-conda-token
 singledispatch
 sklearn
 copt
