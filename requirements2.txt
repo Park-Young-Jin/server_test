@@ -421,7 +421,6 @@ nmf
 suod
 light-famd
 singledispatch
-sklearn
 copt
 pyLDAvis
 imblearn
