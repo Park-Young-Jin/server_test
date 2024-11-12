@@ -358,9 +358,6 @@ xverse
 pyod
 category-encoders
 umap-learn
-s3transfer
-boto3
-awscli
 missingno
 pandas-profiling
 pytest-openfiles
