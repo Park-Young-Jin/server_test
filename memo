@@ -1,0 +1,71 @@
+tar xvzf Python-3.8.8.tgz
+cd Python-3.8.8
+./configure --with-openssl=/usr/bin/openssl --enable-optimizations
+make
+sudo make install
+
+./configure --with-openssl=/home/ec2-user/server_test/openssl-1.1.1w/include/openssl --enable-optimizations
+
+
+
+which python
+ls -al /usr/bin/python
+
+which openssl
+openssl version -a
+
+sudo yum install openssl-devel
+
+gcc
+
+
+zipimport.ZipImportError: can't decompress data; zlib not available
+
+zlib-devel
+
+
+
+Could not build the ssl module!
+Python requires an OpenSSL 1.0.2 or 1.1 compatible libssl with X509_VERIFY_PARAM_set1_host().
+LibreSSL 2.6.4 and earlier do not provide the necessary APIs, https://github.com/libressl-portable/portable/issues/381
+
+
+wget https://www.openssl.org/source/openssl-1.1.1w.tar.gz
+tar -xvzf openssl-1.1.1w.tar.gz
+cd openssl-1.1.1w
+./config --prefix=/usr/local/openssl --openssldir=/usr/local/openssl
+make
+sudo make install
+
+
+export LD_LIBRARY_PATH=/usr/bin/openssl/lib
+export LDFLAGS="-L/usr/bin/openssl/lib"
+export CPPFLAGS="-I/usr/bin/openssl/include"
+export PATH=/usr/bin/openssl/bin:$PATH
+
+
+
+gcc패키지는
+http://gcc.gnu.org/
+http://ftp.tsukuba.wide.ad.jp/software/gcc/releases/gcc-4.6.1/gcc-4.6.1.tar.gz
+
+sudo gzip -d gcc.tar.gz
+tar -xvf aaa.tar
+tar -zxvf aaa.tar.gz
+
+gcc설치전에 m4, gmp mpfr, mpc를 먼저 설치
+
+
+
+다운로드 링크
+
+(출처:http://lunatine.springnote.com/pages/6518271)
+
+m4: ftp://ftp.gnu.org/pub/gnu/m4/m4-1.4.3.tar.gz
+
+gmp: ftp://ftp.gnu.org/gnu/gmp/gmp-5.0.2.tar.gz
+
+mpfr: http://www.mpfr.org/mpfr-current/mpfr-3.0.1.tar.gz
+
+mpc: http://www.multiprecision.org/mpc/download/mpc-0.9.tar.gz
+
