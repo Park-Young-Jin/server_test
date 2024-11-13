@@ -15,7 +15,7 @@ which openssl
 openssl version -a
 
 sudo yum install openssl-devel
-
+sudo yum install libffi-devel
 gcc
 
 
