@@ -270,10 +270,10 @@ argon2-cffi-bindings
 argon2-cffi
 cryptography
 SecretStorage
-#keyring
+keyring==22.3.0
 pyOpenSSL
 #torch==1.9.0
-pydantic
+pydantic==1.8.2
 sympy
 pyerfa
 astropy
