@@ -338,7 +338,7 @@ pytest-doctestplus
 deepctr
 imbalanced-learn
 jupyter-packaging
-blis
+blis==0.7.4
 thinc
 datefinder
 visions
