@@ -208,8 +208,8 @@ black
 hypothesis
 pytest
 pydocstyle
-PyQt5
-PyQtWebEngine
+PyQt5==5.12.3
+PyQtWebEngine==5.12.1
 importlib-resources
 zope.interface
 plotly
