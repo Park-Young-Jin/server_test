@@ -379,7 +379,7 @@ tensorboard
 bkcharts
 deepmatch
 google-pasta
-tensorflow
+#tensorflow
 certipy
 matplotlib-inline
 ipython
