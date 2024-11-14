@@ -254,7 +254,7 @@ networkx
 srsly
 pathlib2
 bokeh
-mkl-service
+mkl-service==2.3.0
 anyio
 PasteDeploy
 PasteScript
@@ -287,13 +287,13 @@ SQLAlchemy
 xgboost
 retrying
 Bottleneck
-mkl-fft
+mkl-fft==1.3.0
 requests-oauthlib
 WebHelpers
 pandas
 swat
 sphinxcontrib-websupport
-mkl-random
+mkl-random==1.2.1
 partd
 dask
 distributed
@@ -420,4 +420,4 @@ light-famd
 singledispatch
 copt
 pyLDAvis
-#imblearn
+imblearn
