@@ -311,7 +311,7 @@ requests-futures
 numba
 scikit-learn
 tffm
-lightgbm
+lightgbm==3.2.1
 jedi
 ruamel.yaml
 textblob
