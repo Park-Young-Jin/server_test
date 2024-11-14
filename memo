@@ -1,6 +1,13 @@
-python3.8 -m pip download -d ./whl -r requirements2.txt
-python3.8 -m pip install --no-index --find-links=./whl -r requirements2.txt
+먼저 설치할 리눅스 패키지들
 
+sudo yum install gcc
+sudo yum install openssl-devel
+sudo yum install libffi-devel
+sudo yum install bzip2-devel 
+sudo yum install sqlite-devel
+sudo yum install zlib-devel
+-------------------------------------
+파이썬 설치
 
 tar xvzf Python-3.8.8.tgz
 cd Python-3.8.8
@@ -9,6 +16,14 @@ make
 sudo make install
 
 ./configure --with-openssl=/home/ec2-user/server_test/openssl-1.1.1w/include/openssl --enable-optimizations
+--------------------------------------------------------------
+파이썬 패키지 설치
+
+python3.8 -m pip download -d ./whl -r requirements2.txt
+python3.8 -m pip install --no-index --find-links=./whl -r requirements2.txt
+
+----------------------------------------------------------------
+
 
 
 
@@ -18,14 +33,12 @@ ls -al /usr/bin/python
 which openssl
 openssl version -a
 
-sudo yum install openssl-devel
-sudo yum install libffi-devel
-gcc
+
 
 
 zipimport.ZipImportError: can't decompress data; zlib not available
 
-zlib-devel
+
 
 
 
