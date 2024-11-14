@@ -272,7 +272,7 @@ cryptography
 SecretStorage
 keyring
 pyOpenSSL
-torch==1.9.0
+#torch==1.9.0
 pydantic
 sympy
 pyerfa
