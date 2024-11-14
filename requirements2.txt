@@ -370,7 +370,7 @@ pyls-spyder
 pytest-remotedata
 typer
 pathy
-spacy
+spacy==3.1.0
 pytest-arraydiff
 pyasn1-modules
 google-auth
