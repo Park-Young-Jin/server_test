@@ -412,7 +412,7 @@ pytest-astropy
 jupyter-telemetry
 jupyterhub
 sudospawner
-autoviz
+autoviz==0.0.83
 tffm2
 nmf
 suod
