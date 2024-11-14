@@ -386,7 +386,7 @@ ipython
 keras-tuner
 ipykernel
 metakernel
-SAS-kernel
+#SAS-kernel
 spyder-kernels
 qtconsole
 jupyter-console
