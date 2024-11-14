@@ -237,7 +237,7 @@ prompt-toolkit
 openpyxl
 preshed
 requests
-h2o
+h2o==3.32.1.4
 pytest-cov
 Babel
 Sphinx
