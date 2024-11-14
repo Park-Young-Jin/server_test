@@ -339,7 +339,7 @@ deepctr
 imbalanced-learn
 jupyter-packaging
 blis==0.7.4
-thinc
+thinc==8.0.8
 datefinder
 visions
 prince
