@@ -13,7 +13,7 @@ more-itertools
 cx-Oracle
 Pillow
 tenacity
-pycurl
+#pycurl
 click
 tornado
 PyYAML
