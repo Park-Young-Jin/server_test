@@ -270,7 +270,7 @@ argon2-cffi-bindings
 argon2-cffi
 cryptography
 SecretStorage
-keyring
+#keyring
 pyOpenSSL
 #torch==1.9.0
 pydantic
